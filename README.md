@@ -15,7 +15,7 @@ A demo of concurrent, generic &amp; non-generic collections.
 | Collection |Features|
 |------------|--------|
 | Dictionary(TKey , TValue) | Add, Remove, ValueCollection, KeyValuePair, KeyCollection, TryGetValue, Enumerator, Exception Handling with 'ArgumentException' & 'KeyNotFoundException' |
-
+|HashSet| Add, UnionWith |
 ---
 ####Generic Comparer Classes
 | Class |Features|
