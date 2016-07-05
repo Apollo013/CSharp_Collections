@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CSharpCollections.Collections.Concurrent;
 
 namespace CSharpCollections
 {
@@ -10,7 +6,8 @@ namespace CSharpCollections
     {
         static void Main(string[] args)
         {
-
+            ConcurrentDictionaryCollection.Run();
+            ConcurrentQueueCollection.Run();
         }
     }
 }
