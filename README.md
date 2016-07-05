@@ -11,6 +11,12 @@ A demo of concurrent, generic &amp; non-generic collections.
 |ConcurrentBag| Add, TryTake, TryPeek |
 
 ---
+####Generic Collections
+|Collection|Features|
+|----------|--------|
+|Dictionary<T>| Add, Remove, ValueCollection, KeyValuePair, KeyCollection, TryGetValue, Enumerator, Exception Handling with 'ArgumentException' & 'KeyNotFoundException' |
+
+---
 ####Resources
 | Title | Author | Publisher |
 |--------------|---------|--------|
