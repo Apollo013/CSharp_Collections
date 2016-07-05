@@ -12,9 +12,9 @@ A demo of concurrent, generic &amp; non-generic collections.
 
 ---
 ####Generic Collections
-|Collection|Features|
-|----------|--------|
-|Dictionary< T >| Add, Remove, ValueCollection, KeyValuePair, KeyCollection, TryGetValue, Enumerator, Exception Handling with 'ArgumentException' & 'KeyNotFoundException' |
+| Collection |Features|
+|------------|--------|
+| Dictionary< T > | Add, Remove, ValueCollection, KeyValuePair, KeyCollection, TryGetValue, Enumerator, Exception Handling with 'ArgumentException' & 'KeyNotFoundException' |
 
 ---
 ####Resources
