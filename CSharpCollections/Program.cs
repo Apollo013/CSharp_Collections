@@ -7,10 +7,12 @@ namespace CSharpCollections
     {
         static void Main(string[] args)
         {
+            /*
             ConcurrentDictionaryCollection.Run();
             ConcurrentQueueCollection.Run();
             ConcurrentStackCollection.Run();
             ConcurrentBagCollection.Run();
+            */
 
             GenericDictionaryCollection.Run();
             GenericComparerClass.Run();

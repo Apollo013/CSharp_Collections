@@ -27,7 +27,7 @@ namespace CSharpCollections.Models.EqualityComparers
         }
 
         public override int GetHashCode(Box bx)
-        {
+        {       
             int hCode = bx.Height * bx.Length * bx.Width;
             return hCode.GetHashCode();
         }
