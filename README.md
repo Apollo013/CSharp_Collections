@@ -4,12 +4,14 @@ A demo of concurrent, generic &amp; non-generic collections.
 ---
 ####Concurrent Collections
 |Collection|
-|--------|
+|----------|
 |ConcurrentDictionary | 
 |ConcurrentQueue|
 
 ---
 ####Misc Language Featues
+|Feature|
+|-------|
 |Parallel.Invoke|
 
 
