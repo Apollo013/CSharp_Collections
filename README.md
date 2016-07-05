@@ -15,6 +15,11 @@ A demo of concurrent, generic &amp; non-generic collections.
 | Collection |Features|
 |------------|--------|
 | Dictionary(TKey , TValue) | Add, Remove, ValueCollection, KeyValuePair, KeyCollection, TryGetValue, Enumerator, Exception Handling with 'ArgumentException' & 'KeyNotFoundException' |
+
+---
+####Generic Comparer Classes
+| Class |Features|
+|------------|--------|
 | Comparer(T) | Demonstrates sorting collections by implementing IComparable(T) & deriving from Comparer(T) |
 | EqualityComparer (T) | Demonstrate equality comparison on a Dictionary(TKey, TValue) |
 
