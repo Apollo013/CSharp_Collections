@@ -51,6 +51,7 @@
     <Compile Include="Collections\Generic\GenericComparerClass.cs" />
     <Compile Include="Collections\Generic\GenericDictionaryCollection.cs" />
     <Compile Include="Collections\Generic\GenericEqualityComparerClass.cs" />
+    <Compile Include="Collections\Generic\GenericHashTableCollection.cs" />
     <Compile Include="Models\Box.cs" />
     <Compile Include="Models\Comparers\BoxLengthFirstComparer.cs" />
     <Compile Include="Models\Customer.cs" />

@@ -13,10 +13,14 @@ namespace CSharpCollections
             ConcurrentStackCollection.Run();
             ConcurrentBagCollection.Run();
             */
-
-            GenericDictionaryCollection.Run();
+            
+            /*
             GenericComparerClass.Run();
             GenericEqualityComparerClass.Run();
+            */
+
+            GenericDictionaryCollection.Run();
+            GenericHashTableCollection.Run();
 
         }
     }
