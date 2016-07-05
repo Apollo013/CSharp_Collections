@@ -48,6 +48,11 @@
     <Compile Include="Collections\Concurrent\ConcurrentDictionaryCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentQueueCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentStackCollection.cs" />
+    <Compile Include="Collections\Generic\GenericComparerCollection.cs" />
+    <Compile Include="Collections\Generic\GenericDictionaryCollection.cs" />
+    <Compile Include="Models\Box.cs" />
+    <Compile Include="Models\BoxLengthFirstComparer.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,7 +60,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Collections\Generic\" />
     <Folder Include="Collections\NonGeneric\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

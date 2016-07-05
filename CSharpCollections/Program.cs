@@ -1,4 +1,5 @@
 ﻿using CSharpCollections.Collections.Concurrent;
+using CSharpCollections.Collections.Generic;
 
 namespace CSharpCollections
 {
@@ -10,6 +11,9 @@ namespace CSharpCollections
             ConcurrentQueueCollection.Run();
             ConcurrentStackCollection.Run();
             ConcurrentBagCollection.Run();
+
+            GenericDictionaryCollection.Run();
+            GenericComparerCollection.Run();
         }
     }
 }
