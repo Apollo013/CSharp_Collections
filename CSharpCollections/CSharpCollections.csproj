@@ -52,7 +52,7 @@
     <Compile Include="Collections\Generic\GenericDictionaryCollection.cs" />
     <Compile Include="Collections\Generic\GenericEqualityComparerClass.cs" />
     <Compile Include="Models\Box.cs" />
-    <Compile Include="Models\BoxLengthFirstComparer.cs" />
+    <Compile Include="Models\Comparers\BoxLengthFirstComparer.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\EqualityComparers\BoxDimensionsEqualityComparer.cs" />
     <Compile Include="Models\EqualityComparers\BoxVolumeEqualityComparer.cs" />

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace CSharpCollections.Models
+namespace CSharpCollections.Models.Comparers
 {
     public class BoxLengthFirstComparer : Comparer<Box>
     {
