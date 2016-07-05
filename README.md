@@ -7,6 +7,7 @@ A demo of concurrent, generic &amp; non-generic collections.
 |----------|--------|
 |ConcurrentDictionary | Threads, TryAdd, TryUpdate, TryRemove, AddOrUpdate, TryGetValue, Clear |
 |ConcurrentQueue| Enqueue, TryDequeue, TryPeek, Action delegate, Parallel.Invoke, Interlocked.Add |
+|ConcurrentStack| PushRange, TryPopRange, Interlocked.Increment, Parallel.For |
 
 
 ---
