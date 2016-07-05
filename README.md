@@ -3,16 +3,10 @@ A demo of concurrent, generic &amp; non-generic collections.
 
 ---
 ####Concurrent Collections
-|Collection|
-|----------|
-|ConcurrentDictionary | 
-|ConcurrentQueue|
-
----
-####Misc Language Featues
-|Feature|
-|-------|
-|Parallel.Invoke|
+|Collection|Features|
+|----------|--------|
+|ConcurrentDictionary | Threads, TryAdd, TryUpdate, TryRemove, AddOrUpdate, TryGetValue, Clear |
+|ConcurrentQueue| Enqueue, TryDequeue, TryPeek, Action delegate, Parallel.Invoke, Interlocked.Add |
 
 
 ---
