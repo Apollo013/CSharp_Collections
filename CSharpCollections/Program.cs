@@ -8,6 +8,8 @@ namespace CSharpCollections
         {
             ConcurrentDictionaryCollection.Run();
             ConcurrentQueueCollection.Run();
+            ConcurrentStackCollection.Run();
+            ConcurrentBagCollection.Run();
         }
     }
 }

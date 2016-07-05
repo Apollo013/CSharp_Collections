@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collections\BaseClass.cs" />
+    <Compile Include="Collections\Concurrent\ConcurrentBagCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentDictionaryCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentQueueCollection.cs" />
+    <Compile Include="Collections\Concurrent\ConcurrentStackCollection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
