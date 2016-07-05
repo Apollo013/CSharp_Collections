@@ -13,7 +13,9 @@ namespace CSharpCollections
             ConcurrentBagCollection.Run();
 
             GenericDictionaryCollection.Run();
-            GenericComparerCollection.Run();
+            GenericComparerClass.Run();
+            GenericEqualityComparerClass.Run();
+
         }
     }
 }

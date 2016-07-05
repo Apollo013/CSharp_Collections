@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace CSharpCollections.Collections.Generic
 {
-    public class GenericComparerCollection : BaseClass
+    public class GenericComparerClass : BaseClass
     {
         public static void Run()
         {
