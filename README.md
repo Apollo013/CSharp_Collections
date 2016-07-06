@@ -18,12 +18,17 @@ A demo of concurrent, generic &amp; non-generic collections.
 |HashSet| Add, UnionWith |
 
 ---
-####Custom Generic Interfaces
+####Generic Interfaces
 | Class |Features|
 |------------|--------|
 | ICollection(T) | Demonstrates how to create a custom collection (BoxCollection) that also utilises a custom Enumerator(T). This collection overrides the Remove, Contains, Add, GetEnumerator, IEnumerable.GetEnumerator, Clear, IsReadOnly & Count members, as well as introducing an indexer method and a custom Contains method that allows you to pass in an EqualityComparer(T) object. |
-| IEnumerator(T) | Demonstrate a custom IEnumerator used by the 'BoxCollection' custom collection |
 
+
+---
+####Enumerators
+| Class |Features|
+|------------|--------|
+| IEnumerator(T) | 2 examples demonstrating iteration over a list and a text file |
 
 ---
 ####Generic Comparer Classes
