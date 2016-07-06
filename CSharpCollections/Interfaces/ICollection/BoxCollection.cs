@@ -129,7 +129,7 @@ namespace CSharpCollections.Interfaces.ICollection
             return removed;
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
+        IEnumerator System.Collections.IEnumerable.GetEnumerator()
         {
             return new BoxEnumerator(this);
         }

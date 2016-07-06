@@ -9,8 +9,8 @@ namespace CSharpCollections.Interfaces.ICollection
     public class GenericCustomICollection : BaseClass
     {
         public static void Run()
-        {
-            PrintTitle("GENERIC COLLECTIONS - CUSTOM ICOLLECTION");
+        {            
+            PrintTitle("GENERIC INTERFACES - ICOLLECTION(T)");
 
             BoxCollection bxList = new BoxCollection();
 
