@@ -22,7 +22,7 @@ A demo of concurrent, generic &amp; non-generic collections.
 | Class |Features|
 |------------|--------|
 | ICollection(T) | Demonstrates how to create a custom collection (BoxCollection) that also utilises a custom Enumerator(T). This collection overrides the Remove, Contains, Add, GetEnumerator, IEnumerable.GetEnumerator, Clear, IsReadOnly & Count members, as well as introducing an indexer method and a custom Contains method that allows you to pass in an EqualityComparer(T) object. |
-
+| IEnumerable(T) | Demonstrates how to create a custom file reader (EnumerableStreamReader) that utilises a custom Enumerator(T).|
 
 ---
 ####Enumerators
