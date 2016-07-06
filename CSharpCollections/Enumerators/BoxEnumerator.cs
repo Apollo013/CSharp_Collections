@@ -1,4 +1,4 @@
-﻿using CSharpCollections.Collections.Custom;
+﻿using CSharpCollections.Interfaces.ICollection;
 using System.Collections;
 using System.Collections.Generic;
 

@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using CSharpCollections.Models;
+using System.Collections.Generic;
 
-namespace CSharpCollections.Models.EqualityComparers
+namespace CSharpCollections.EqualityComparers
 {
     public class BoxDimensionsEqualityComparer : EqualityComparer<Box>
     {

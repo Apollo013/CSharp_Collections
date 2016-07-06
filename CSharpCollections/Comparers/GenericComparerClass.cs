@@ -1,9 +1,9 @@
-﻿using CSharpCollections.Models;
-using CSharpCollections.Models.Comparers;
+﻿using CSharpCollections.Collections;
+using CSharpCollections.Models;
 using System;
 using System.Collections.Generic;
 
-namespace CSharpCollections.Collections.Generic
+namespace CSharpCollections.Comparers
 {
     public class GenericComparerClass : BaseClass
     {

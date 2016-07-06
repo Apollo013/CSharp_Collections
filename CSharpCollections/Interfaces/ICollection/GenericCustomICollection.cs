@@ -1,12 +1,12 @@
-﻿using CSharpCollections.Collections.Custom;
-using CSharpCollections.Models;
-using CSharpCollections.Models.EqualityComparers;
+﻿using CSharpCollections.Models;
+using CSharpCollections.EqualityComparers;
 using System;
 using System.Collections;
+using CSharpCollections.Collections;
 
-namespace CSharpCollections.Collections.Generic
+namespace CSharpCollections.Interfaces.ICollection
 {
-    public class GenericCustomCollection : BaseClass
+    public class GenericCustomICollection : BaseClass
     {
         public static void Run()
         {

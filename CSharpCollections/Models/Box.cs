@@ -1,4 +1,4 @@
-﻿using CSharpCollections.Models.EqualityComparers;
+﻿using CSharpCollections.EqualityComparers;
 using System;
 
 namespace CSharpCollections.Models

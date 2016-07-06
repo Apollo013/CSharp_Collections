@@ -48,18 +48,18 @@
     <Compile Include="Collections\Concurrent\ConcurrentDictionaryCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentQueueCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentStackCollection.cs" />
-    <Compile Include="Collections\Custom\BoxCollection.cs" />
-    <Compile Include="Collections\Generic\GenericCustomCollection.cs" />
-    <Compile Include="ComparerClasses\GenericComparerClass.cs" />
+    <Compile Include="Interfaces\ICollection\BoxCollection.cs" />
+    <Compile Include="Interfaces\ICollection\GenericCustomICollection.cs" />
+    <Compile Include="Comparers\GenericComparerClass.cs" />
     <Compile Include="Collections\Generic\GenericDictionaryCollection.cs" />
-    <Compile Include="ComparerClasses\GenericEqualityComparerClass.cs" />
+    <Compile Include="EqualityComparers\GenericEqualityComparerClass.cs" />
     <Compile Include="Collections\Generic\GenericHashSetCollection.cs" />
     <Compile Include="Models\Box.cs" />
-    <Compile Include="Models\Comparers\BoxLengthFirstComparer.cs" />
+    <Compile Include="Comparers\BoxLengthFirstComparer.cs" />
     <Compile Include="Models\Customer.cs" />
-    <Compile Include="Models\Enumerators\BoxEnumerator.cs" />
-    <Compile Include="Models\EqualityComparers\BoxDimensionsEqualityComparer.cs" />
-    <Compile Include="Models\EqualityComparers\BoxVolumeEqualityComparer.cs" />
+    <Compile Include="Enumerators\BoxEnumerator.cs" />
+    <Compile Include="EqualityComparers\BoxDimensionsEqualityComparer.cs" />
+    <Compile Include="EqualityComparers\BoxVolumeEqualityComparer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -67,7 +67,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Collections\CustomInterfaces\" />
     <Folder Include="Collections\NonGeneric\" />
+    <Folder Include="Interfaces\IList\" />
+    <Folder Include="Interfaces\IReadOnlyCollection\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,11 +1,10 @@
 ﻿using CSharpCollections.Models;
-using CSharpCollections.Models.EqualityComparers;
 using System;
 using System.Collections.Generic;
 
-namespace CSharpCollections.Collections.Generic
+namespace CSharpCollections.EqualityComparers
 {
-    public class GenericEqualityComparerClass : BaseClass
+    public class GenericEqualityComparerClass : Collections.BaseClass
     {
         private static Dictionary<Box, String> boxes;
 

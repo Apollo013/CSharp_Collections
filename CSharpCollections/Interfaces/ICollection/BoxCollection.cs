@@ -1,11 +1,11 @@
-﻿using CSharpCollections.Models;
+﻿using CSharpCollections.EqualityComparers;
+using CSharpCollections.Models;
 using CSharpCollections.Models.Enumerators;
-using CSharpCollections.Models.EqualityComparers;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CSharpCollections.Collections.Custom
+namespace CSharpCollections.Interfaces.ICollection
 {
     public class BoxCollection : ICollection<Box>
     {
