@@ -48,6 +48,8 @@
     <Compile Include="Collections\Concurrent\ConcurrentDictionaryCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentQueueCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentStackCollection.cs" />
+    <Compile Include="Collections\Custom\BoxCollection.cs" />
+    <Compile Include="Collections\Generic\GenericCustomCollection.cs" />
     <Compile Include="ComparerClasses\GenericComparerClass.cs" />
     <Compile Include="Collections\Generic\GenericDictionaryCollection.cs" />
     <Compile Include="ComparerClasses\GenericEqualityComparerClass.cs" />
@@ -55,6 +57,7 @@
     <Compile Include="Models\Box.cs" />
     <Compile Include="Models\Comparers\BoxLengthFirstComparer.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Enumerators\BoxEnumerator.cs" />
     <Compile Include="Models\EqualityComparers\BoxDimensionsEqualityComparer.cs" />
     <Compile Include="Models\EqualityComparers\BoxVolumeEqualityComparer.cs" />
     <Compile Include="Program.cs" />
