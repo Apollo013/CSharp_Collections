@@ -30,7 +30,7 @@ A demo of concurrent, generic &amp; non-generic collections.
 | Class |Features|
 |------------|--------|
 | Comparer(T) | Demonstrates sorting collections by implementing IComparable(T) & deriving from Comparer(T) |
-| EqualityComparer (T) | Demonstrates equality comparison on a Dictionary(TKey, TValue) |
+| EqualityComparer(T) | Demonstrates equality comparison by deriving from EqualityComparer(T) class|
 
 ---
 ####Resources
