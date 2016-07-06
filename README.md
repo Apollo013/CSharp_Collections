@@ -16,12 +16,21 @@ A demo of concurrent, generic &amp; non-generic collections.
 |------------|--------|
 | Dictionary(TKey , TValue) | Add, Remove, ValueCollection, KeyValuePair, KeyCollection, TryGetValue, Enumerator, Exception Handling with 'ArgumentException' & 'KeyNotFoundException' |
 |HashSet| Add, UnionWith |
+
+---
+####Custom Generic Classes
+| Class |Features|
+|------------|--------|
+| ICollection(T) | Demonstrates how to create a custom collection (BoxCollection) that also utilises a custom Enumerator(T). This collection overrides the Remove, Contains, Add, GetEnumerator, IEnumerable.GetEnumerator, Clear, IsReadOnly & Count members, as well as introducing an index method and a custom Contains method. |
+| IEnumerator(T) | Demonstrate a custom Enumerator used by the 'BoxCollection' custom collection |
+
+
 ---
 ####Generic Comparer Classes
 | Class |Features|
 |------------|--------|
 | Comparer(T) | Demonstrates sorting collections by implementing IComparable(T) & deriving from Comparer(T) |
-| EqualityComparer (T) | Demonstrate equality comparison on a Dictionary(TKey, TValue) |
+| EqualityComparer (T) | Demonstrates equality comparison on a Dictionary(TKey, TValue) |
 
 ---
 ####Resources
