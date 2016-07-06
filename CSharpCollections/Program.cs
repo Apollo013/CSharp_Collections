@@ -20,7 +20,7 @@ namespace CSharpCollections
             */
 
             GenericDictionaryCollection.Run();
-            GenericHashTableCollection.Run();
+            GenericHashSetCollection.Run();
 
         }
     }

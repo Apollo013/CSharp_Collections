@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace CSharpCollections.Collections.Generic
 {
-    public class GenericHashTableCollection : BaseClass
+    public class GenericHashSetCollection : BaseClass
     {
         public static void Run()
         {
-            PrintTitle("GENERIC COLLECTIONS - HASHTABLE");
+            PrintTitle("GENERIC COLLECTIONS - HASHSET");
 
             HashSet<int> evenNumbers = new HashSet<int>();
             HashSet<int> oddNumbers = new HashSet<int>();
@@ -30,7 +30,7 @@ namespace CSharpCollections.Collections.Generic
 
         private static void DisplaySet(string title, HashSet<int> set)
         {
-            Console.Write($"{title} contains {set.Count} elements: {{ ");
+            Console.Write($"{title} contains {set.Count} elements: {{");
             foreach (int i in set)
             {
                 Console.Write($" {i}");
