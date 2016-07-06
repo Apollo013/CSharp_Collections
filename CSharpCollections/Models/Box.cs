@@ -1,8 +1,9 @@
-﻿using System;
+﻿using CSharpCollections.Models.EqualityComparers;
+using System;
 
 namespace CSharpCollections.Models
 {
-    public class Box : IComparable<Box>
+    public class Box : IComparable<Box>, IEquatable<Box>
     {
         public int Height { get; private set; }
         public int Length { get; private set; }
@@ -34,6 +35,18 @@ namespace CSharpCollections.Models
             {
                 return 0;
             }
+        }
+
+        public bool Equals(Box other)
+        {
+            if (new BoxDimensionsEqualityComparer().Equals(this, other))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            };
         }
     }
 }
