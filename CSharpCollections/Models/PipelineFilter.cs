@@ -25,13 +25,13 @@ namespace CSharpCollections.Models
             this.inputValues = inputValues;
             this.processor = processor;
             this.ct = ct;
-            this.Name = name;
+            Name = name;
 
             // Create collection for final outputs
             this.outputValues = new BlockingCollection<TOutput>[5];
             for (int i = 0; i < this.outputValues.Length; i++)
             {
-                this.outputValues[i] = new BlockingCollection<TOutput>(500);
+                outputValues[i] = new BlockingCollection<TOutput>(500);
             }
         }
 
@@ -50,7 +50,7 @@ namespace CSharpCollections.Models
             this.inputValues = inputValues;
             this.outputProcessor = renderer;
             this.ct = ct;
-            this.Name = name;
+            Name = name;
         }
 
         public void Process()
@@ -68,7 +68,7 @@ namespace CSharpCollections.Models
                     {
                         TOutput outputItem = processor(inputItem);
                         BlockingCollection<TOutput>.AddToAny(outputValues, outputItem);
-                        Console.WriteLine($"{this.Name} sent {outputItem} to next");
+                        Console.WriteLine($"{Name} sent {outputItem} to next");
                     }
                     else
                     {

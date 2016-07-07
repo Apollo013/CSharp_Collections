@@ -11,12 +11,119 @@ namespace CSharpCollections.Collections.Concurrent
         public static void Run()
         {
             PrintTitle("BLOCKING COLLECTION");
-            BlockingArrays();
+            AddTakeExample();
+            TryTakeExample();
+            FromToAnyExample();
+            //BlockingArraysExample();
 
         }
 
+        private static void AddTakeExample()
+        {
+            PrintSubTitle("ADD / TAKE EXAMPLE");
 
-        private static void BlockingArrays()
+            using (BlockingCollection<int> bc = new BlockingCollection<int>())
+            {
+                Task t1 = Task.Factory.StartNew(() =>
+                {
+                    bc.Add(1);
+                    bc.Add(2);
+                    bc.Add(3);
+                    bc.CompleteAdding();
+
+                });
+
+                Task t2 = Task.Factory.StartNew(() =>
+                {
+                    try
+                    {
+                        while (true) Console.WriteLine(bc.Take());
+                    }
+                    catch (InvalidOperationException)
+                    {
+                        Console.WriteLine("That's All!");
+                    }                
+                });
+
+               Task.WaitAll(t1, t2);
+            }
+        }
+
+        private static void TryTakeExample()
+        {
+            PrintSubTitle("TRYTAKE EXAMPLE");
+
+            BlockingCollection<int> bc = new BlockingCollection<int>();
+
+            int numberOfItems = 1000;
+            int outerSum = 0;
+
+            // Generate some numbers
+            for (int i = 0; i < numberOfItems; ++i)
+            {
+                bc.Add(i);
+            }
+            bc.CompleteAdding();
+
+            // Delegate for adding up all numbers
+            Action action = () =>
+            {
+                int item;
+                int innerSum = 0;
+
+                while(bc.TryTake(out item))
+                {
+                    innerSum += item;
+                }
+
+                Interlocked.Add(ref outerSum, innerSum);
+            };
+
+            // Launch three parallel actions to consume the BlockingCollection
+            Parallel.Invoke(action, action, action);
+
+            // Output
+            Console.WriteLine($"Sum[0..{numberOfItems}) = {outerSum}, should be {(numberOfItems * (numberOfItems - 1)) / 2}");
+            
+            // Cleanup
+            bc.Dispose();
+        }
+
+        private static void FromToAnyExample()
+        {
+            PrintSubTitle("TRYTAKEFROM ANY / TRYADDTOANY EXAMPLE");
+
+            BlockingCollection<int>[] bcs = new BlockingCollection<int>[2];
+            bcs[0] = new BlockingCollection<int>(5); // collection bounded to 5 items
+            bcs[1] = new BlockingCollection<int>(5); // collection bounded to 5 items
+
+            // Should be able to add 10 items w/o blocking
+            int numberOfFailures = 0;
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (BlockingCollection<int>.TryAddToAny(bcs, i) == -1)
+                {
+                    numberOfFailures++;
+                }
+            }
+
+            Console.WriteLine($"TryAddToAny: {numberOfFailures} failures (should be 0)");
+
+            // Should be able to retrieve 10 items
+            int numberOfItems = 0;
+            int item;
+
+            while (BlockingCollection<int>.TryTakeFromAny(bcs, out item) != -1)
+            {
+                numberOfItems++;
+            }
+
+            Console.WriteLine($"TryTakeFromAny: retrieved {numberOfItems} items (should be 10)");
+
+        }
+
+        private static void BlockingArraysExample()
         {
             CancellationTokenSource cts = new CancellationTokenSource();
 
@@ -31,7 +138,7 @@ namespace CSharpCollections.Collections.Concurrent
             });
 
 
-            // Generate some source data
+            // Generate some numbers
             BlockingCollection<int>[] sourceArrs = new BlockingCollection<int>[5];
 
             for(int i = 0; i < sourceArrs.Length; i++)
