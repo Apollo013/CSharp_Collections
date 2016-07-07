@@ -16,6 +16,7 @@ A demo of concurrent, generic &amp; non-generic collections.
 |------------|--------|
 | Dictionary(TKey , TValue) | Add, Remove, ValueCollection, KeyValuePair, KeyCollection, TryGetValue, Enumerator, Exception Handling with 'ArgumentException' & 'KeyNotFoundException' |
 |HashSet| Add, UnionWith |
+|SortedDictionary(TKey , TValue)| Add, Remove, ValueCollection, KeyValuePair, KeyCollection, TryGetValue, Exception Handling with 'ArgumentException' & 'KeyNotFoundException' |
 
 ---
 ####Interfaces
