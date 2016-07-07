@@ -9,7 +9,7 @@ A demo of concurrent, generic &amp; non-generic collections.
 |ConcurrentQueue| Enqueue, TryDequeue, TryPeek, Action delegate, Parallel.Invoke, Interlocked.Add |
 |ConcurrentStack| PushRange, TryPopRange, Interlocked.Increment, Parallel.For |
 |ConcurrentBag| Add, TryTake, TryPeek |
-
+|Blocking Collection| Add, TryTake, TryAddToAny, TryTakeFromAny, CompleteAdding, Action delegate, Parallel.Invoke, Interlocked.Add, CancellationTokenSource |
 ---
 ####Generic Collections
 | Collection |Features|
