@@ -44,4 +44,5 @@ A demo of concurrent, generic &amp; non-generic collections.
 |--------------|---------|--------|
 | Pro C# 5.0 and the .NET 4.5 Framework| Andrew Troelsen | APRESS |
 | [System.Collections.Generic Namespace](https://msdn.microsoft.com/en-us/library/system.collections.generic(v=vs.110).aspx) |  | MSDN |
+| [How to: Use Arrays of Blocking Collections in a Pipeline](https://msdn.microsoft.com/en-us/library/dd460715(v=vs.110).aspx) |  | MSDN |
 
