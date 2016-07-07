@@ -67,6 +67,8 @@
     <Compile Include="Enumerators\BoxEnumerator.cs" />
     <Compile Include="EqualityComparers\BoxDimensionsEqualityComparer.cs" />
     <Compile Include="EqualityComparers\BoxVolumeEqualityComparer.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\Pet.cs" />
     <Compile Include="Models\PipelineFilter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,7 +77,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Collections\CustomInterfaces\" />
     <Folder Include="Collections\NonGeneric\" />
   </ItemGroup>
   <ItemGroup>
