@@ -16,7 +16,7 @@ namespace CSharpCollections
             //ConcurrentQueueCollection.Run();
             //ConcurrentStackCollection.Run();
             //ConcurrentBagCollection.Run();
-
+            ConcurrentBlockingCollection.Run();
 
             // COMPARISON CLASSES
             //GenericComparerClass.Run();
@@ -26,7 +26,7 @@ namespace CSharpCollections
             // GENERIC COLLECTIONS
             //GenericDictionaryCollection.Run();
             //GenericHashSetCollection.Run();
-            GenericSortedDictionaryCollection.Run();
+            //GenericSortedDictionaryCollection.Run();
 
 
             // INTERFACES

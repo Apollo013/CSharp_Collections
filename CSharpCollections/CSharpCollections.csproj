@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collections\BaseClass.cs" />
+    <Compile Include="Collections\Concurrent\ConcurrentBlockingCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentBagCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentDictionaryCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentQueueCollection.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="Enumerators\BoxEnumerator.cs" />
     <Compile Include="EqualityComparers\BoxDimensionsEqualityComparer.cs" />
     <Compile Include="EqualityComparers\BoxVolumeEqualityComparer.cs" />
+    <Compile Include="Models\PipelineFilter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -73,8 +75,6 @@
   <ItemGroup>
     <Folder Include="Collections\CustomInterfaces\" />
     <Folder Include="Collections\NonGeneric\" />
-    <Folder Include="Interfaces\IList\" />
-    <Folder Include="Interfaces\IReadOnlyCollection\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="TestFiles\SteamReaderTest.txt">
