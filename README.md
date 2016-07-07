@@ -2,6 +2,7 @@
 A demo of concurrent, generic &amp; non-generic collections.
 
 ---
+
 ####Concurrent Collections
 |Collection|Features|
 |----------|--------|
@@ -10,7 +11,9 @@ A demo of concurrent, generic &amp; non-generic collections.
 |ConcurrentStack| PushRange, TryPopRange, Interlocked.Increment, Parallel.For |
 |ConcurrentBag| Add, TryTake, TryPeek |
 |Blocking Collection| Add, TryTake, TryAddToAny, TryTakeFromAny, CompleteAdding, Action delegate, Parallel.Invoke, Interlocked.Add, CancellationTokenSource |
+
 ---
+
 ####Generic Collections
 | Collection |Features|
 |------------|--------|
@@ -21,6 +24,14 @@ A demo of concurrent, generic &amp; non-generic collections.
 |List(T)| Add, Remove, Sort, Reverse, Capacity, Count, Clear, Insert(n,T) |
 
 ---
+
+####Observable Collections
+| Collection |Features|
+|------------|--------|
+| ObservableCollection(T) | Custom ObservableCollection(T) implementation with Add, Remove, Contains, CopyTo, Clear & Enumerator |
+
+---
+
 ####Interfaces
 | Class |Features|
 |------------|--------|
