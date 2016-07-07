@@ -9,7 +9,6 @@ namespace CSharpCollections.Collections.Generic
         {
             PrintTitle("GENERIC COLLECTIONS - SORTED DICTIONARY");
 
-
             // Create a new sorted dictionary of strings, with string keys.
             SortedDictionary<string, string> sortedFileTypes = new SortedDictionary<string, string>();
 
@@ -29,8 +28,7 @@ namespace CSharpCollections.Collections.Generic
                 Console.WriteLine("An element with that Key already exists.");
             }
 
-            // The Item property is another name for the indexer, so you 
-            // can omit its name when accessing elements. 
+            // The Item property is another name for the indexer, so you can omit its name when accessing elements. 
             Console.WriteLine($"For key = \"rtf\", value = {sortedFileTypes["rtf"]}.");
 
             // The indexer can be used to change the value associated with a key.
@@ -50,9 +48,7 @@ namespace CSharpCollections.Collections.Generic
                 Console.WriteLine("Key = \"tif\" is not found.");
             }
 
-            // When a program often has to try keys that turn out not to
-            // be in the dictionary, TryGetValue can be a more efficient 
-            // way to retrieve values.
+            // When a program often has to try keys that turn out not to be in the dictionary, TryGetValue can be a more efficient  way to retrieve values.
             string value = "";
             if (sortedFileTypes.TryGetValue("tif", out value))
             {
@@ -71,8 +67,7 @@ namespace CSharpCollections.Collections.Generic
                 Console.WriteLine($"Value added for key = \"ht\": {sortedFileTypes["ht"]}");
             }
 
-            // When you use foreach to enumerate dictionary elements,
-            // the elements are retrieved as KeyValuePair objects.
+            // When you use foreach to enumerate dictionary elements, the elements are retrieved as KeyValuePair objects.
             Console.WriteLine();
             foreach (KeyValuePair<string, string> kvp in sortedFileTypes)
             {
