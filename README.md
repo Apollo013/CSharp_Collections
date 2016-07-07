@@ -17,7 +17,7 @@ A demo of concurrent, generic &amp; non-generic collections.
 | Dictionary(TKey , TValue) | Add, Remove, ValueCollection, KeyValuePair, KeyCollection, TryGetValue, Enumerator, Exception Handling with 'ArgumentException' & 'KeyNotFoundException' |
 |HashSet| Add, UnionWith |
 |SortedDictionary(TKey , TValue)| Add, Remove, ValueCollection, KeyValuePair, KeyCollection, TryGetValue, Exception Handling with 'ArgumentException' & 'KeyNotFoundException' |
-
+|LinkedList(T)| AddFirst, AddLast, AddBefore, AddAfter, RemoveFirst, RemoveLast, Find, FindLast, clear, copying to array & exception handling with 'InvalidOperationException' when node already exists |
 ---
 ####Interfaces
 | Class |Features|
