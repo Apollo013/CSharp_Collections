@@ -1,5 +1,6 @@
 ﻿using CSharpCollections.Collections.Concurrent;
 using CSharpCollections.Collections.Generic;
+using CSharpCollections.Collections.Observable;
 using CSharpCollections.Comparers;
 using CSharpCollections.EqualityComparers;
 using CSharpCollections.Interfaces.ICollection;
@@ -29,7 +30,11 @@ namespace CSharpCollections
             //GenericHashSetCollection.Run();
             //GenericSortedDictionaryCollection.Run();
             //GenericLinkedListCollection.Run();
-            GenericListCollection.Run();
+            //GenericListCollection.Run();
+
+
+            // OBSERVABLE COLLECTIONS
+            ObservableCollectionExample.Run();
 
 
             // INTERFACES
