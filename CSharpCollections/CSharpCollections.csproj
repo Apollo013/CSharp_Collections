@@ -49,6 +49,7 @@
     <Compile Include="Collections\Concurrent\ConcurrentDictionaryCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentQueueCollection.cs" />
     <Compile Include="Collections\Concurrent\ConcurrentStackCollection.cs" />
+    <Compile Include="Collections\Generic\GenericLinkedListCollection.cs" />
     <Compile Include="Collections\Generic\GenericSortedDictionaryCollection.cs" />
     <Compile Include="Enumerators\StreamReaderEnumerator.cs" />
     <Compile Include="Interfaces\ICollection\BoxCollection.cs" />
