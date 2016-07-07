@@ -28,7 +28,8 @@ namespace CSharpCollections
             //GenericDictionaryCollection.Run();
             //GenericHashSetCollection.Run();
             //GenericSortedDictionaryCollection.Run();
-            GenericLinkedListCollection.Run();
+            //GenericLinkedListCollection.Run();
+            GenericListCollection.Run();
 
 
             // INTERFACES
