@@ -9,7 +9,6 @@ namespace CSharpCollections.Collections.Generic
     {
         public static void Run()
         {
-
             Winner w1 = new Winner() { Name = "Novak Djokovic", Year = 2016 };
             Winner w2 = new Winner() { Name = "Stan Wawrinka", Year = 2015 };
             Winner w3 = new Winner() { Name = "Rafael Nadal", Year = 2014 };
@@ -27,7 +26,6 @@ namespace CSharpCollections.Collections.Generic
 
             HashSet<Winner> FrenchOpenWinners2 = new HashSet<Winner>(new FrenchOpenWinnersComparer()) { w1, w2, w3, w4, w5, w6, w7, w8, w9, w10 };
             Print("With Equatable Comparer", FrenchOpenWinners2);
-
         }
 
         private static void Print(string title, HashSet<Winner> winners)
@@ -43,8 +41,5 @@ namespace CSharpCollections.Collections.Generic
                 Console.WriteLine(winner.ToString());
             }
         }
-
-
-
     }
 }

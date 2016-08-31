@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace CSharpCollections.EqualityComparers
 {
+    /// <summary>
+    /// See 'GenericHashSetCollectionWithEqualityComparer' for implementation
+    /// </summary>
     public class FrenchOpenWinnersComparer : IEqualityComparer<Winner>
     {
         public bool Equals(Winner x, Winner y)
