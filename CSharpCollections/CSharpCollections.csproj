@@ -52,7 +52,7 @@
     <Compile Include="Collections\Generic\GenericLinkedListCollection.cs" />
     <Compile Include="Collections\Generic\GenericListCollection.cs" />
     <Compile Include="Collections\Generic\GenericSortedDictionaryCollection.cs" />
-    <Compile Include="Collections\ObjectModels\OMKeyedCollection.cs" />
+    <Compile Include="Collections\Generic\GenericAbstractKeyedCollection.cs" />
     <Compile Include="Collections\Observable\ObservableCollectionExample.cs" />
     <Compile Include="Interfaces\ICollection\PeopleCollection.cs" />
     <Compile Include="Enumerators\StreamReaderEnumerator.cs" />

@@ -1,4 +1,4 @@
-﻿using CSharpCollections.Collections.ObjectModels;
+﻿using CSharpCollections.Collections.Generic;
 
 namespace CSharpCollections
 {
@@ -25,13 +25,10 @@ namespace CSharpCollections
             //GenericSortedDictionaryCollection.Run();
             //GenericLinkedListCollection.Run();
             //GenericListCollection.Run();
-
+            GenericAbstractKeyedCollection.Run();
 
             // OBSERVABLE COLLECTIONS
             // ObservableCollectionExample.Run();
-
-            // Object Models
-            OMKeyedCollection.Run();
 
             // INTERFACES
             //GenericCustomICollection.Run();

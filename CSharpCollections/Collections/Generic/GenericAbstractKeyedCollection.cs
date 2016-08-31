@@ -2,9 +2,9 @@
 using System;
 using System.Collections.ObjectModel;
 
-namespace CSharpCollections.Collections.ObjectModels
+namespace CSharpCollections.Collections.Generic
 {
-    public class OMKeyedCollection
+    public class GenericAbstractKeyedCollection
     {
         private static EmployeeKeyedDictionary employees;
 
