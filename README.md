@@ -54,9 +54,10 @@ A demo of concurrent, generic &amp; non-generic collections.
 
 ---
 ####Resources
-| Title | Author | Publisher |
+| Title | Author | Publisher / Website  |
 |--------------|---------|--------|
 | Pro C# 5.0 and the .NET 4.5 Framework| Andrew Troelsen | APRESS |
 | [System.Collections.Generic Namespace](https://msdn.microsoft.com/en-us/library/system.collections.generic(v=vs.110).aspx) |  | MSDN |
 | [How to: Use Arrays of Blocking Collections in a Pipeline](https://msdn.microsoft.com/en-us/library/dd460715(v=vs.110).aspx) |  | MSDN |
 | [ObservableCollection<T> Class](https://msdn.microsoft.com/en-us/library/ms668604(v=vs.110).aspx) |  | MSDN |
+| [Using the HashSet of T object in C# .NET to store unique elements](https://dotnetcodr.com/2016/08/30/using-the-hashset-of-t-object-in-c-net-to-store-unique-elements-2/#more-8555)| Andras Nemes | dotnetcodr.com |
