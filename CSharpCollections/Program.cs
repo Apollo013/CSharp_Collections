@@ -1,10 +1,4 @@
-﻿using CSharpCollections.Collections.Concurrent;
-using CSharpCollections.Collections.Generic;
-using CSharpCollections.Collections.Observable;
-using CSharpCollections.Comparers;
-using CSharpCollections.EqualityComparers;
-using CSharpCollections.Interfaces.ICollection;
-using CSharpCollections.Interfaces.IEnumerable;
+﻿using CSharpCollections.Collections.ObjectModels;
 
 namespace CSharpCollections
 {
@@ -34,8 +28,10 @@ namespace CSharpCollections
 
 
             // OBSERVABLE COLLECTIONS
-            ObservableCollectionExample.Run();
+            // ObservableCollectionExample.Run();
 
+            // Object Models
+            OMKeyedCollection.Run();
 
             // INTERFACES
             //GenericCustomICollection.Run();

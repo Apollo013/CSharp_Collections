@@ -32,7 +32,7 @@ namespace CSharpCollections.Interfaces.IEnumerable
 
                 Console.WriteLine($"Lines Found: {lines.Count()}");
             }
-            catch(FileNotFoundException ex)
+            catch (FileNotFoundException)
             {
                 Console.WriteLine($"{filename} cannot be found");
                 return;
