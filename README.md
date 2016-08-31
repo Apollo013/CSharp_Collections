@@ -22,7 +22,7 @@ A demo of concurrent, generic &amp; non-generic collections.
 |SortedDictionary(TKey , TValue)| Add, Remove, ValueCollection, KeyValuePair, KeyCollection, TryGetValue, Exception Handling with 'ArgumentException' & 'KeyNotFoundException' |
 |LinkedList(T)| AddFirst, AddLast, AddBefore, AddAfter, RemoveFirst, RemoveLast, Find, FindLast, clear, copying to array & exception handling with 'InvalidOperationException' when node already exists |
 |List(T)| Add, Remove, Sort, Reverse, Capacity, Count, Clear, Insert(n,T) |
-|KeyedColection| Add, Insert, Get<TKey>, Remove, RemoveAt, IndexOf |
+|KeyedCollection(TKey,TItem)| Add, Insert, Get<TKey>, Remove, RemoveAt, IndexOf |
 
 ---
 
