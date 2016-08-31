@@ -25,7 +25,8 @@ namespace CSharpCollections
             //GenericSortedDictionaryCollection.Run();
             //GenericLinkedListCollection.Run();
             //GenericListCollection.Run();
-            GenericAbstractKeyedCollection.Run();
+            // GenericAbstractKeyedCollection.Run();
+            GenericHashSetCollectionWithEqualityComparer.Run();
 
             // OBSERVABLE COLLECTIONS
             // ObservableCollectionExample.Run();
