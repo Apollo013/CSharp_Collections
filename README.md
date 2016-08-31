@@ -2,6 +2,7 @@
 A demo of concurrent, generic &amp; non-generic collections.
 
 ---
+
 ####Concurrent Collections
 |Collection|Features|
 |----------|--------|
@@ -10,7 +11,9 @@ A demo of concurrent, generic &amp; non-generic collections.
 |ConcurrentStack| PushRange, TryPopRange, Interlocked.Increment, Parallel.For |
 |ConcurrentBag| Add, TryTake, TryPeek |
 |Blocking Collection| Add, TryTake, TryAddToAny, TryTakeFromAny, CompleteAdding, Action delegate, Parallel.Invoke, Interlocked.Add, CancellationTokenSource |
+
 ---
+
 ####Generic Collections
 | Collection |Features|
 |------------|--------|
@@ -21,8 +24,16 @@ A demo of concurrent, generic &amp; non-generic collections.
 |List(T)| Add, Remove, Sort, Reverse, Capacity, Count, Clear, Insert(n,T) |
 
 ---
+
+####Observable Collections
+| Collection |Features|
+|------------|--------|
+| ObservableCollection(T) | Custom ObservableCollection(T) implementation with Add, Remove, Contains, CopyTo, Clear & Enumerator |
+
+---
+
 ####Interfaces
-| Class |Features|
+| Interface |Features|
 |------------|--------|
 | ICollection(T) | Demonstrates how to create a custom collection (BoxCollection) that also utilises a custom Enumerator(T). This collection overrides the Remove, Contains, Add, GetEnumerator, IEnumerable.GetEnumerator, Clear, IsReadOnly & Count members, as well as introducing an indexer method and a custom Contains method that allows you to pass in an EqualityComparer(T) object. |
 | IEnumerable(T) | Demonstrates how to create a custom file reader (EnumerableStreamReader) that utilises a custom Enumerator(T).|
@@ -47,4 +58,4 @@ A demo of concurrent, generic &amp; non-generic collections.
 | Pro C# 5.0 and the .NET 4.5 Framework| Andrew Troelsen | APRESS |
 | [System.Collections.Generic Namespace](https://msdn.microsoft.com/en-us/library/system.collections.generic(v=vs.110).aspx) |  | MSDN |
 | [How to: Use Arrays of Blocking Collections in a Pipeline](https://msdn.microsoft.com/en-us/library/dd460715(v=vs.110).aspx) |  | MSDN |
-
+| [ObservableCollection<T> Class](https://msdn.microsoft.com/en-us/library/ms668604(v=vs.110).aspx) |  | MSDN |
