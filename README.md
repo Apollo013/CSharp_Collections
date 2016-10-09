@@ -1,5 +1,6 @@
 # CSharp_Collections
-A demo of concurrent, generic, non-generic & immutable collections along with othe interface implementations.
+
+A demo of concurrent, generic, non-generic, & abstract collections, and includes examples of custom enumerators, and various comparer implementations
 
 ---
 
