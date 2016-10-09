@@ -34,6 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Collections.Immutable.1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -54,6 +58,8 @@
     <Compile Include="Collections\Generic\GenericListCollection.cs" />
     <Compile Include="Collections\Generic\GenericSortedDictionaryCollection.cs" />
     <Compile Include="Collections\Generic\GenericAbstractKeyedCollection.cs" />
+    <Compile Include="Collections\Generic\GenericSortedSetCollection.cs" />
+    <Compile Include="Collections\Immutable\ImmutableCollectionExample.cs" />
     <Compile Include="Collections\Observable\ObservableCollectionExample.cs" />
     <Compile Include="EqualityComparers\FrenchOpenWinnersComparer.cs" />
     <Compile Include="Interfaces\ICollection\PeopleCollection.cs" />
@@ -82,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

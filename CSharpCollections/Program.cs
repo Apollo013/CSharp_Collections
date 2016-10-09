@@ -1,4 +1,4 @@
-﻿using CSharpCollections.Collections.Generic;
+﻿using CSharpCollections.Collections.Immutable;
 
 namespace CSharpCollections
 {
@@ -26,8 +26,8 @@ namespace CSharpCollections
             //GenericLinkedListCollection.Run();
             //GenericListCollection.Run();
             // GenericAbstractKeyedCollection.Run();
-            GenericHashSetCollectionWithEqualityComparer.Run();
-
+            //GenericHashSetCollectionWithEqualityComparer.Run();
+            //GenericSortedSetCollection.Run();
             // OBSERVABLE COLLECTIONS
             // ObservableCollectionExample.Run();
 
@@ -35,6 +35,9 @@ namespace CSharpCollections
             //GenericCustomICollection.Run();
             //GenericCustomIEnumerable.Run();
 
+
+            // IMMUTABLE COLLECTIONS
+            ImmutableCollectionExample.Run();
         }
     }
 }
