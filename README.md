@@ -1,5 +1,16 @@
 # CSharp_Collections
-A demo of concurrent, generic &amp; non-generic collections.
+A demo of concurrent, generic, non-generic & immutable collections along with othe interface implementations.
+
+---
+
+Developed with Visual Studio 2015 Community
+
+---
+
+###Techs
+|Tech|
+|----|
+|C#|
 
 ---
 
