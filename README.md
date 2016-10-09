@@ -33,6 +33,13 @@ A demo of concurrent, generic &amp; non-generic collections.
 
 ---
 
+####Immutable Collections
+| Collection |Features|
+|------------|--------|
+| ImmutableList(T) | Create and index access |
+
+---
+
 ####Interfaces
 | Interface |Features|
 |------------|--------|
